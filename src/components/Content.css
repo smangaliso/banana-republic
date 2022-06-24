@@ -1,0 +1,12 @@
+.content-format p {
+  margin-top: 25px;
+  margin-left: 55px;
+  text-align: justify;
+}
+
+.content-format h3 {
+  font-weight: bold;
+  margin-top: 100px;
+
+  margin-left: 55px;
+}

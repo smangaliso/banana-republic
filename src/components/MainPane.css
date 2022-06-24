@@ -1,0 +1,8 @@
+.arrow1 {
+  transform: rotate(0deg);
+}
+@media only screen and (max-width: 600px) {
+  .arrow1 {
+    transform: rotate(90deg);
+  }
+}

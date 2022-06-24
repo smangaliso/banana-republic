@@ -1,0 +1,22 @@
+.arrow {
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .arrow {
+    transform: rotate(90deg);
+  }
+}
+
+.right-content {
+  background-color: #ff9200;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .right-content {
+    border-radius: 0;
+  }
+}

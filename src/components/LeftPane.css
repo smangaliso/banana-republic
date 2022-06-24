@@ -1,0 +1,35 @@
+.content {
+  text-align: center;
+  background-color: #ffd300;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+
+  color: #373d40;
+}
+
+.face {
+  height: 250px;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #373d40;
+  border: 0px;
+  margin: 10% 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    text-align: center;
+    background-color: #ffd300;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+    color: #373d40;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+}
